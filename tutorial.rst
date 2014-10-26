@@ -1,78 +1,51 @@
-36
-
-
-
-PROGRAMACIÓN
-EN PYTHON
-
-
-
-Patricio Páez Serrato
-
-
-
-
-Derechos Reservados (c) Patricio Páez Serrato 2003, 2004
-
-El original de este documento en formato mgp
-(magicpoint) está en:
-http://pp.com.mx/python/tutorial.mgp
-
-Se autoriza la copia, distribución y/o modificación
-de este documento bajo los términos de la licencia
-GNU Free Documentation License, Version 1.1 o posterior
-
-Una copia de esta licencia se incluye en el formato mgp
-de este documento.  También puede ser obtenida de la 
-Free Software Foundation en http://www.fsf.org/licenses
-
-
+PROGRAMACIÓN EN PYTHON
+======================
 
 Índice 
+------
 
+- Instalación
 
-	Instalación
+- Lenguaje 
 
-	Lenguaje 
-
-	Ejemplos
+- Ejemplos
 
 El lenguaje
+-----------
 
+- Tipos de datos
+- Expresiones
+- Funciones predefinidas
 
-	Tipos de datos
-	Expresiones
-	Funciones predefinidas
+- Entrada y Salida
+- Control de flujo
+- Funciones de usuario
 
-	Entrada y Salida
-	Control de flujo
-	Funciones de usuario
-
-	Cadenas y listas
+- Cadenas y listas
 
 Programación orientada a objetos
+--------------------------------
 
+- Objetos
+    - Entidad con datos y procedimientos
 
-	Objetos
-		Entidad con datos y procedimientos
+    - Objeto.atributo
 
-		Objeto.atributo
-
-		Objeto.método()
+    - Objeto.método()
 
 Tipos de datos
+--------------
 
+- Enteros
 
-	Enteros
+- Punto flotante
 
-	Punto flotante
+- Cadenas
 
-	Cadenas
-
-	Listas
+- Listas
 
 Enteros y flotantes
-
+-------------------
 
 1234   12345679  0x003f   0776
 
@@ -83,7 +56,7 @@ Enteros y flotantes
 1.5+0.3j
 
 Cadenas
-
+-------
 
 'hola mundo'
 
@@ -96,7 +69,7 @@ tiene tres
 renglones'''
 
 Listas
-
+------
 
 [ 0,1,2,3,4,5 ]
 
@@ -106,16 +79,16 @@ Listas
 
 
 Expresiones
+-----------
 
+- Operadores
 
-	Operadores
+- Variables
 
-	Variables	
-
-	Valor lógico
+- Valor lógico
 
 Operadores
-
+----------
 
 >>> -5**2
 -25
@@ -127,14 +100,14 @@ min <= y <= max
 'c' in 'Python es conciso'
 
 Funciones predefinidas
+----------------------
 
+- Integradas
 
-	Integradas
-
-	Definidas en módulos
+- Definidas en módulos
 
 Funciones integradas
-
+--------------------
 
 >>> int(4.5)
 4
@@ -142,12 +115,12 @@ Funciones integradas
 >>> long(5)
 5L
 
- >>> float(22)
+>>> float(22)
 22.0
 
 
 Funciones integradas
-
+--------------------
 
 >>> hex(255)
 '0xff'
@@ -159,7 +132,7 @@ Funciones integradas
 2.0
 
 Funciones integradas
-
+--------------------
 
 >>> abs(-5)
 5
@@ -171,7 +144,7 @@ Funciones integradas
 1.4139999999999999
 
 Funciones definidas en módulos
-
+------------------------------
 
 >>> from math import pi,sin
 
@@ -183,27 +156,27 @@ Funciones definidas en módulos
 
 
 Entrada y Salida
+----------------
 
+- raw_input()
+- print
 
-	raw_input()
-	print
-
-	open()
-	read()	
-
-Control de flujo
-
-
-	if
-	for
-	while
-
-	continue
-	break
-	pass
+- open()
+- read()
 
 Control de flujo
+----------------
 
+- if
+- for
+- while
+
+- continue
+- break
+- pass
+
+Control de flujo
+----------------
 
 if expresion:
     bloque
@@ -213,7 +186,7 @@ else:
     bloque
 
 Control de flujo
-
+----------------
 
 for elemento in secuencia:
     bloque
@@ -225,47 +198,47 @@ else:
     bloque
 
 Funciones de usuario
+--------------------
 
+- def
 
-	def
+- return
 
-	return
-
-	lambda
+- lambda
 
 Funciones de usuario
-
+--------------------
 
 def nombre( [parámetros] ):
     "Documentación."
     bloque
-   [return expresión]
+    [return expresión]
 
 
 nombre( [argumento [,argumento ...] ] )
 
 Funciones lambda
-
+----------------
 
 lambda argumentos: expresión
 
 lambda x,y : x*y
 
 Operaciones con cadenas y listas
+--------------------------------
 
+- len()
 
-	len()
+- Subíndices [n]
 
-	Subíndices [n]
+- Cortes [i:f]
 
-	Cortes [i:f]
+- e in s
 
-	e in s
-
-	Métodos
+- Métodos
 
 Operaciones con cadenas y listas
-
+--------------------------------
 
 len( '1234' )
 4
@@ -274,7 +247,7 @@ len( [ '0' ] )
 1
 
 Operaciones con cadenas
-
+-----------------------
 
 s = 'hola mundo'
 
@@ -287,7 +260,7 @@ s[11]
 s[2:4]
 
 Operaciones con listas
-
+----------------------
 
 l = [ 10, 4, 7, 'cadena', [ 22, 23 ], (x,y) ]
 
@@ -298,7 +271,7 @@ l [ 0:2 ]
 l [ 3:5 ]
 
 Operaciones con listas
-
+----------------------
 
 l = [ 10, 4, 7, 'cadena', [ 22, 23 ], (x,y) ]
 
@@ -311,7 +284,7 @@ l.insert( 4, 5)
 [ 10, 4, 7, 'cadena', 5, [ 22, 23 ], (x,y), cabus ]
 
 Operaciones con listas
-
+----------------------
 
 [ 10, 4, 7, 'cadena', 5, [ 22, 23 ], (x,y), cabus ]
 
@@ -322,54 +295,54 @@ l
 [ 10, 4, 7, 5, [ 22, 23 ], (x,y), cabus ]
 
 Listas - métodos
+----------------
 
+- sort()
 
-	sort()
+- reverse()
 
-	reverse()
-
-	sort(cmpfunc)
-
-Listas - Usos
-
-
-	Pila LIFO
-
-	Cola FIFO
-
-	Matriz
-
-	Lista recursiva
+- sort(cmpfunc)
 
 Listas - Usos
+-------------
 
+- Pila LIFO
 
-	Pila LIFO
-		append(x)
+- Cola FIFO
+
+- Matriz
+
+- Lista recursiva
+
+Listas - Usos
+-------------
+
+- Pila LIFO
+    - append(x)
 
      [ 1, 2, 3, 4, 5] <---
 
-		pop()
+    - pop()
 
      [ 1, 2, 3, 4, 5] --->
 
 Listas - Usos
+-------------
 
-
-	Cola FIFO
-		append(x)
+- Cola FIFO
+    - append(x)
 
      [ 1, 2, 3, 4, 5] <---
 
-		pop(0)
+    - pop(0)
 
 <--- [ 1, 2, 3, 4, 5]
 
 Listas - Usos
+-------------
 
-
-	Matriz
-		L[r][c]
+- Matriz
+    - L[r][c]
 
 l = [ [1, 2, 3],  # 1er. elemento
       [4, 5, 6],  # 2do.
@@ -380,24 +353,14 @@ l[0]           l[1][2]
 
 
 Caracteres especiales
+---------------------
 
+- #
 
-	#
+- \  
 
-	\  
+- ( [ {
 
-	( [ {
+- ;
 
-	;
-
-	_
-
-
-
-
-PROGRAMACIÓN
-EN PYTHON
-www.python.org
-
-Patricio Páez Serrato
-pp.com.mx
+- _

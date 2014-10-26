@@ -1,45 +1,21 @@
-7
-
 
 
 INTRODUCCIÓN
-
+============
 
 www.python.org
 
-
-Patricio Páez Serrato
-
-
-
-
-Derechos Reservados (c) Patricio Páez Serrato 2003, 2004
-
-El original de este documento en formato mgp
-(magicpoint) está en:
-http://pp.com.mx/python/intro.mgp
-
-Se autoriza la copia, distribución y/o modificación
-de este documento bajo los términos de la licencia
-GNU Free Documentation License, Version 1.1 o posterior
-
-Una copia de esta licencia se incluye en el formato mgp
-de este documento.  También puede ser obtenida de la 
-Free Software Foundation en http://www.fsf.org/licenses
-
-
-
-
 Índice 
+------
 
+- Definición
 
-	Definición
+- Origen
 
-	Origen
-
-	Tendencias
+- Tendencias
 
 Definición
+----------
 
 
 "Python es un lenguaje de alto nivel,
@@ -54,30 +30,21 @@ y de libre distribución."
 Manual de referencia, Guido Van Rossum
 
 Origen
+------
 
+- Stichting Mathematisch Centrum, Amsterdam
 
-	Stichting Mathematisch Centrum, Amsterdam
+- Guido Van Rossum en 1991
 
-	Guido Van Rossum en 1991
-
-	Lenguage ABC
+- Lenguage ABC
 
 Tendencias en la industria
+--------------------------
 
+- Lenguajes de guiones
+    -Bash, Perl, Python, Ruby
 
-	Lenguajes de guiones
-		Bash, Perl, Python, Ruby
+- Desarrollo rápido
 
-	Desarrollo rápido
+- Acceso mediante navegador
 
-	Acceso mediante navegador
-
-
-
-INTRODUCCIÓN
-
-www.python.org
-
-
-Patricio Páez Serrato
-pp.com.mx
