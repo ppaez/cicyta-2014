@@ -16,7 +16,7 @@ Agenda
 Introducción
 ------------
 
-- Presentaciones de los participantes - 10 minutos
+- Presentaciones - 10 minutos
 - Introducción a Python - 30 minutos
 - Ambientes de Python - 10 minutos
 - Descanso 10 minutos
@@ -43,7 +43,7 @@ Introducción a Python
 - El ecosistema y la comunidad
 - Recursos disponibles en http://python.org
 
-Diferentes ambientes de Python
+Ambientes de Python
 ------------------------------
 
 - Ambiente interactivo en consola
@@ -57,14 +57,14 @@ Prácticas
 
 #. Definición del  problema
 #. Trabajo en pares en IPython - 40 minutos
-#. Puesta en común de cada par - 10 minutos
-#. Descanso 10 minutos
+#. Puesta en común - 10 minutos
+#. Descanso - 10 minutos
 
 Ejercicio 1
 -----------
 
 - Definir la función f(n) = 2**n y listar
-  el resultado de n = 0 hasta 60::
+  el resultado para n desde 0 hasta 60::
 
     0 1
     1 2
@@ -75,12 +75,12 @@ Ejercicio 1
     6 64
     7 128
     8 256
-    9 512
 
 Ejercicio 1
 -----------
 
-- Agregar separador de miles::
+- Definir la función pon_coma(numero) que
+  regresa número con comas y usar::
 
     10 1,024
     11 2,048
@@ -106,7 +106,7 @@ Ejercicio 1
 Ejercicio 2
 -----------
 
-- Leer e imprimir renglones de capitales.txt::
+- Leer e imprimir capitales.txt::
 
     México,D.F.
     Aguascalientes,Aguascalientes
@@ -120,21 +120,31 @@ Ejercicio 2
 Ejercicio 2
 -----------
 
-- Separar capital y estado::
+- Crear una lista, cada elemento es una
+  pareja (capital y estado)::
 
-    'México', 'D.F'
-    'Aguascalientes', 'Aguascalientes'
+    ('México', 'D.F'),
+    ('Aguascalientes', 'Aguascalientes')
 
 - Crear un índice de estado y su capital::
 
     capital['Jalisco'] --> 'Guadalajara'
 
 
-Ejercicio TDD en CyberDojo
---------------------------
+Ejercicio TDD
+-------------
 
+- Visitar http://cyber-dojo.org
 
+- Introduccir el código F209BA
 
+- Conseguir el objetivo paso a paso
 
 Cierre
 ------
+
+- Incríbete a la lista de grupo de usuarios
+  de Python en Guadalajara:
+  http://groups.google.com/group/pythoncabal
+
+- Asiste a las reuniones mensuales
