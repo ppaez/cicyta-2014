@@ -21,12 +21,12 @@ Introducción
 - Ambientes de Python - 10 minutos
 - Descanso 10 minutos
 
-Presentación
-------------
+Presentaciones
+--------------
 
 - Nombre
 - Actividad académica o laboral
-- Experiencia de programación en otros lenguajes
+- Experiencia en programación
 - Expectativas del taller
 
 Formar parejas
@@ -36,10 +36,10 @@ Formar parejas
 - Compartir una computadora
 - Colaborar
 
-Introducción
-------------
+Introducción a Python
+---------------------
 
-- Qué es Python, características, historia
+- Características e historia
 - El ecosistema y la comunidad
 - Recursos disponibles en http://python.org
 
@@ -52,18 +52,19 @@ Diferentes ambientes de Python
 - codingbat.com/python
 - blender
 
-Ejercicios
+Prácticas
 ----------
 
-- Definición del  problema
-- Trabajo en pares en IPython - 40 minutos
-- Puesta en común de cada par - 10 minutos
-- Descanso 10 minutos
+#. Definición del  problema
+#. Trabajo en pares en IPython - 40 minutos
+#. Puesta en común de cada par - 10 minutos
+#. Descanso 10 minutos
 
 Ejercicio 1
 -----------
 
-- Listar la función f(n) = 2**n::
+- Definir la función f(n) = 2**n y listar
+  el resultado de n = 0 hasta 60::
 
     0 1
     1 2
