@@ -16,37 +16,10 @@ Agenda
 Introducción
 ------------
 
-- Presentación de los participantes e instructores - 10 minutos
+- Presentaciones de los participantes - 10 minutos
 - Introducción a Python - 30 minutos
 - Ambientes de Python - 10 minutos
 - Descanso 10 minutos
-
-Agenda
-------
-
-Ejercicio 1 - 50 minutos
-Lámina con dos problemas: números grandes, agregando comas
-Trabajo en pares en IPython - 40 minutos
-Puesta en común de cada par - 10 minutos
-Descanso 10 minutos
-
-Agenda
-------
-
-Ejercicio 2 - 50 minutos
-manejo de información
-Trabajo en pares en IPython - 40 minutos
-Puesta en común de cada par - 10 minutos
-Descanso 10 minuto
-
-Agenda
-------
-
-Ejercicio TDD en CyberDojo - 50 minutos
-Trabajo en pares en el navegador - 40 minutos
-Puesta en común de cada par - 10 minutos
-Cierre
-Invitación a la lista PythonCabal y a reuniones mensuales
 
 Presentación
 ------------
