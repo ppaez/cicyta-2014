@@ -1,15 +1,6 @@
 Introducción a Python
 ======================
 
-Índice
-------
-
-- Instalación
-
-- Lenguaje
-
-- Ejemplos
-
 El lenguaje
 -----------
 
