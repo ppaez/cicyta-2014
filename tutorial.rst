@@ -1,12 +1,12 @@
-PROGRAMACIÓN EN PYTHON
+Introducción a Python
 ======================
 
-Índice 
+Índice
 ------
 
 - Instalación
 
-- Lenguaje 
+- Lenguaje
 
 - Ejemplos
 
@@ -47,35 +47,41 @@ Tipos de datos
 Enteros y flotantes
 -------------------
 
-1234   12345679  0x003f   0776
+.. code:: python
 
-10L  12345678901234890L
+    1234  0x003f   0776
 
-0.5  5e10
+    12345678901234890
 
-1.5+0.3j
+    0.5  5e10
+
+    1.5+0.3j
 
 Cadenas
 -------
 
-'hola mundo'
+.. code:: python
 
-"Python es fácil de aprender"
+    'hola mundo'
 
-'con "las baterías incluídas".' "Guido's"
+    "Python es fácil de aprender"
 
-'''Esta cadena
-tiene tres
-renglones'''
+    'con "las baterías incluídas".'
+
+    '''Esta cadena
+    tiene tres
+    renglones'''
 
 Listas
 ------
 
-[ 0,1,2,3,4,5 ]
+.. code:: python
 
-[ 'hola', 'mundo', 1, 5.6, 0x0ff, [ 1,2,3 ] ]
+    [0,1,2,3,4,5]
 
-[ [ 1,2,3], [4,5,6], [7,8,9] ]
+    ['hola', 'mundo', 1, 5.6, 0x0ff, [ 1,2,3 ]]
+
+    [[ 1,2,3], [4,5,6], [7,8,9]]
 
 
 Expresiones
@@ -90,14 +96,16 @@ Expresiones
 Operadores
 ----------
 
->>> -5**2
--25
+.. code:: python
 
-min <= y <= max
+    >>> -5**2
+    -25
 
-7 in [ 10, 5, 7, 8 ]
+    min <= y <= max
 
-'c' in 'Python es conciso'
+    7 in [10, 5, 7, 8]
+
+    'c' in 'Python es conciso'
 
 Funciones predefinidas
 ----------------------
@@ -109,113 +117,134 @@ Funciones predefinidas
 Funciones integradas
 --------------------
 
->>> int(4.5)
-4
+.. code:: python
 
->>> long(5)
-5L
+    >>> int(4.5)
+    4
 
->>> float(22)
-22.0
+    >>> long(5)
+    5L
 
+    >>> float(22)
+    22.0
 
-Funciones integradas
---------------------
-
->>> hex(255)
-'0xff'
-
->>> oct(255)
-'0377'
-
->>> round(1.7)
-2.0
 
 Funciones integradas
 --------------------
 
->>> abs(-5)
-5
+.. code:: python
 
->>> abs( 1 + 1j)
-1.4142135623730951
+    >>> hex(255)
+    '0xff'
 
->>> round( _, 3)
-1.4139999999999999
+    >>> oct(255)
+    '0377'
+
+    >>> round(1.7)
+    2.0
+
+Funciones integradas
+--------------------
+
+.. code:: python
+
+    >>> abs(-5)
+    5
+
+    >>> abs( 1 + 1j)
+    1.4142135623730951
+
+    >>> round( _, 3)
+    1.4139999999999999
 
 Funciones definidas en módulos
 ------------------------------
 
->>> from math import pi,sin
+.. code:: python
 
->>> pi
-3.1415926535897931
+    >>> from math import pi,sin
 
->>> sin(pi/2)
-1.0
+    >>> pi
+    3.1415926535897931
+
+    >>> sin(pi/2)
+    1.0
 
 
 Entrada y Salida
 ----------------
 
-- raw_input()
-- print
+.. code:: python
 
-- open()
-- read()
+    - input()
+    - print()
 
-Control de flujo
-----------------
-
-- if
-- for
-- while
-
-- continue
-- break
-- pass
+    - f = open(nombre)
+    - f.read()
+    - f.write()
 
 Control de flujo
 ----------------
 
-if expresion:
-    bloque
-elif expresion:
-    bloque
-else:
-    bloque
+.. code:: python
+
+    - if
+    - for
+    - while
+
+    - continue
+    - break
+    - pass
 
 Control de flujo
 ----------------
 
-for elemento in secuencia:
-    bloque
+.. code:: python
+
+    if expresion:
+        bloque
+    elif expresion:
+        bloque
+    else:
+        bloque
+
+Control de flujo
+----------------
+
+.. code:: python
+
+    for elemento in secuencia:
+        bloque
 
 
-while expresion:
-    bloque
-else:
-    bloque
+    while expresion:
+        bloque
+    else:
+        bloque
 
 Funciones de usuario
 --------------------
 
-- def
+.. code:: python
 
-- return
+    def
 
-- lambda
+    return
+
+    lambda
 
 Funciones de usuario
 --------------------
 
-def nombre( [parámetros] ):
-    "Documentación."
-    bloque
-    [return expresión]
+.. code:: python
+
+    def nombre([parametros]):
+        "Documentación."
+        bloque
+        [return expresion]
 
 
-nombre( [argumento [,argumento ...] ] )
+    nombre([argumento [,argumento ...]])
 
 Funciones lambda
 ----------------
@@ -240,59 +269,69 @@ Operaciones con cadenas y listas
 Operaciones con cadenas y listas
 --------------------------------
 
-len( '1234' )
-4
+.. code:: python
 
-len( [ '0' ] )
-1
+    len('1234')
+    4
+
+    len(['0'])
+    1
 
 Operaciones con cadenas
 -----------------------
 
-s = 'hola mundo'
+.. code:: python
 
-s[7]
+    s = 'hola mundo'
 
-s[-1]
+    s[7]
 
-s[11]
+    s[-1]
 
-s[2:4]
+    s[11]
 
-Operaciones con listas
-----------------------
-
-l = [ 10, 4, 7, 'cadena', [ 22, 23 ], (x,y) ]
-
-l[2]
-
-l [ 0:2 ]
-
-l [ 3:5 ]
+    s[2:4]
 
 Operaciones con listas
 ----------------------
 
-l = [ 10, 4, 7, 'cadena', [ 22, 23 ], (x,y) ]
+.. code:: python
 
-l.append( 'cabus' )
+    l = [10, 4, 7, 'cadena', [22, 23], (x,y)]
 
-[ 10, 4, 7, 'cadena', [ 22, 23 ], (x,y), cabus ]
+    l[2]
 
-l.insert( 4, 5)
- 
-[ 10, 4, 7, 'cadena', 5, [ 22, 23 ], (x,y), cabus ]
+    l [0:2]
+
+    l [3:5]
 
 Operaciones con listas
 ----------------------
 
-[ 10, 4, 7, 'cadena', 5, [ 22, 23 ], (x,y), cabus ]
+.. code:: python
 
-l.pop( 3 )
-'cadena'
+    l = [10, 4, 7, 'cadena', [22, 23], (x,y)]
 
-l
-[ 10, 4, 7, 5, [ 22, 23 ], (x,y), cabus ]
+    l.append('cabus')
+
+    [10, 4, 7, 'cadena', [22, 23], (x,y), 'cabus']
+
+    l.insert( 4, 5)
+
+    [10, 4, 7, 'cadena', 5, [22, 23], (x,y), 'cabus']
+
+Operaciones con listas
+----------------------
+
+.. code:: python
+
+    [10, 4, 7, 'cadena', 5, [22, 23], (x,y), 'cabus']
+
+    l.pop( 3 )
+    'cadena'
+
+    l
+    [10, 4, 7, 5, [ 22, 23 ], (x,y), 'cabus']
 
 Listas - métodos
 ----------------
@@ -344,12 +383,14 @@ Listas - Usos
 - Matriz
     - L[r][c]
 
-l = [ [1, 2, 3],  # 1er. elemento
-      [4, 5, 6],  # 2do.
-      [7, 8, 9] ] # 3ro.
+.. code:: python
 
-l[0]           l[1][2]
-[1, 2, 3]      6
+    l = [ [1, 2, 3],  # 1er. elemento
+          [4, 5, 6],  # 2do.
+          [7, 8, 9] ] # 3ro.
+
+    l[0]    -> [1, 2, 3]
+    l[1][2] -> 6
 
 
 Caracteres especiales
@@ -357,7 +398,7 @@ Caracteres especiales
 
 - #
 
-- \  
+- \\
 
 - ( [ {
 
