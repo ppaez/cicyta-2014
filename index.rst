@@ -29,13 +29,6 @@ Presentaciones
 - Experiencia en programación
 - Expectativas del taller
 
-Formar parejas
---------------
-
-- Combinar novatos y avanzados
-- Compartir una computadora
-- Colaborar
-
 Introducción a Python
 ---------------------
 
@@ -59,6 +52,13 @@ Prácticas
 #. Trabajo en pares en IPython - 40 minutos
 #. Puesta en común - 10 minutos
 #. Descanso - 10 minutos
+
+Formar parejas
+--------------
+
+- Combinar novatos y avanzados
+- Compartir una computadora
+- Colaborar
 
 Ejercicio 1
 -----------
