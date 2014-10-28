@@ -89,14 +89,26 @@ Operadores
 
 .. code:: python
 
-    >>> -5**2
-    -25
+    >>> 5 ** 2
+    25
 
-    min <= y <= max
+    >>> min( [1, 5, 23, -20] )
+    -20
 
-    7 in [10, 5, 7, 8]
+    >>> max( [1, 5, 23, -20] )
+    23
 
-    'c' in 'Python es conciso'
+    >>> 2 <= 3
+    True
+
+    >>> 2 >= 3
+    False
+
+    >>> 7 in [10, 5, 7, 8]
+    True
+
+    >>> 'c' in 'Python es conciso'
+    True
 
 Funciones predefinidas
 ----------------------
