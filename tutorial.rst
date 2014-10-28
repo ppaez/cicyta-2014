@@ -179,12 +179,26 @@ Entrada y Salida
 
 .. code:: python
 
-    - input()
-    - print()
+    >>> input('¿Cuál es tu nombre? ')
+    ¿Cuál es tu nombre? Juan
+    'Juan'
 
-    - f = open(nombre)
-    - f.read()
-    - f.write()
+    print('¡Hola, mundo!')
+    '¡Hola, mundo!'
+
+    >>> f = open( 'mi_archivo.txt', 'w' )
+
+    >>> f.write( 'Qué onda, mis amigos.\nYo soy Juan' )
+    33
+
+    >>> f.close()
+
+    >>> f = open( 'mi_archivo.txt', 'r' )
+
+    >>> f.read()
+    'Qué onda, mis amigos.\nYo soy Juan'
+
+    >>> f.close()
 
 Control de flujo
 ----------------
