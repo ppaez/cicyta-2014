@@ -42,7 +42,7 @@ Tendencias en la industria
 --------------------------
 
 - Lenguajes de guiones
-    -Bash, Perl, Python, Ruby
+    - Bash, Perl, Python y Ruby
 
 - Desarrollo rápido
 
