@@ -89,14 +89,26 @@ Operadores
 
 .. code:: python
 
-    >>> -5**2
-    -25
+    >>> 5 ** 2
+    25
 
-    min <= y <= max
+    >>> min( [1, 5, 23, -20] )
+    -20
 
-    7 in [10, 5, 7, 8]
+    >>> max( [1, 5, 23, -20] )
+    23
 
-    'c' in 'Python es conciso'
+    >>> 2 <= 3
+    True
+
+    >>> 2 >= 3
+    False
+
+    >>> 7 in [10, 5, 7, 8]
+    True
+
+    >>> 'c' in 'Python es conciso'
+    True
 
 Funciones predefinidas
 ----------------------
@@ -167,12 +179,26 @@ Entrada y Salida
 
 .. code:: python
 
-    - input()
-    - print()
+    >>> input('¿Cuál es tu nombre? ')
+    ¿Cuál es tu nombre? Juan
+    'Juan'
 
-    - f = open(nombre)
-    - f.read()
-    - f.write()
+    print('¡Hola, mundo!')
+    '¡Hola, mundo!'
+
+    >>> f = open( 'mi_archivo.txt', 'w' )
+
+    >>> f.write( 'Qué onda, mis amigos.\nYo soy Juan' )
+    33
+
+    >>> f.close()
+
+    >>> f = open( 'mi_archivo.txt', 'r' )
+
+    >>> f.read()
+    'Qué onda, mis amigos.\nYo soy Juan'
+
+    >>> f.close()
 
 Control de flujo
 ----------------
